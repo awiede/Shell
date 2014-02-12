@@ -3,7 +3,7 @@ Andreas's Shell
 This is a basic shell that can handle some basic commands on its own and sends others to the bash shell.
 Upon startup you will be greated with a welcome, and when you see "awiede$ " you can enter your command. 
 
-Basic Commands:
+Basic Commands
 =====
 
 exit 
@@ -24,7 +24,7 @@ delete filename
 
 This deletes the file.
 
-Other Commands:
+Other Commands
 =====
 If you enter a command that is not on the basic commands list, but is an executable command
 in the bash shell, then the shell will run it. 
