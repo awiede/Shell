@@ -10,17 +10,17 @@ exit
 
 This exits the shell.
 
-type <filename> 
+type filename
 
 This reads in a file and prints out its contents.
 
-copy <file1> <file2> 
+copy file1 file2 
 
 This reads in the first file and copies it to the second file.
 If the second file exists it is erased and replaced with the contents of the first.
 If the second file does not exist the shell creates the file.
 
-delete <filename>
+delete filename
 
 This deletes the file.
 
