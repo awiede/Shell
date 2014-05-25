@@ -59,8 +59,8 @@ void shell(){
         }
         if(strcmp(line,"exit")==0)
         {
-            //break;
             return;
+            printf("Shell Terminated\n");
         }
         else if(strncmp(line,"type",4)==0)
         {
@@ -148,7 +148,7 @@ void shell(){
             }
         }
     }    
-    printf("Shell Terminated\n");
+//    printf("Shell Terminated\n");
 }
 
 main(){
