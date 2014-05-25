@@ -59,8 +59,8 @@ void shell(){
         }
         if(strcmp(line,"exit")==0)
         {
-            return;
             printf("Shell Terminated\n");
+            return;
         }
         else if(strncmp(line,"type",4)==0)
         {
