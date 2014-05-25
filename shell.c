@@ -59,7 +59,8 @@ void shell(){
         }
         if(strcmp(line,"exit")==0)
         {
-            break;
+            //break;
+            return;
         }
         else if(strncmp(line,"type",4)==0)
         {
